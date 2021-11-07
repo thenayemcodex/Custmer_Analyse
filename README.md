@@ -1,6 +1,6 @@
 ## Custmer_Analyse
 <img width="250" heigth="250" src="Customer.jpg">
-##Command for this tool :
+## Command for this tool :
 <p>
 $ pkg install python3 -y
 
