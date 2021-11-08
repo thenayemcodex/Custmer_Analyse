@@ -34,10 +34,10 @@ while True:
             break
         else:
             print("\033[1;91m \n\n\t[+] Access Denied")
-            os.system("xdg-open https://github.com/Noob-hacker71/Customer_Analyse")
+            os.system("xdg-open https://github.com/Noob-hacker71/Custmer_Analyse")
     else:
         print('\033[1;91m\n\n\t[+] Wrong UserName\n\n[+] Try Again',usr,'sir')
-        os.system("xdg-open https://github.com/Noob-hacker71/Customer_Analyse")
+        os.system("xdg-open https://github.com/Noob-hacker71/Custmer_Analyse")
         
 
 logo='''\033[1;32m
