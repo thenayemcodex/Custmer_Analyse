@@ -1,4 +1,44 @@
 import json,os
+try:
+  import lolcat
+except:
+  print("\033[1;36m")
+  os.system("pip install lolcat")
+  print("\033[1;36m\n[+] lolcat has been installed")
+  sleep(1)
+try:
+  import python3
+except:
+  
+  os.system('apt install python3 -y |lolcat')
+  print('"\033[1;36m\n[+] python has been install ')
+  sleep(2)
+try:
+  import figlet
+except:
+  
+  os.system('apt install figlet -y | lolcat')
+  print('"\033[1;36m\n[+] figlet has been isntalled ')
+  sleep(2)
+while True:
+    loguser = input('\033[1;35m\n\n[+] Enter Tool Username :')
+    sleep(2)
+    if loguser == "AIMS":
+        print('\033[1;92m\n\n\t[+] Currect ')
+        logpas = input('\033[1;91m\n\n[+] Enter Tool Password :')
+        sleep(2)
+        if logpas == "GROUP":
+            print("\033[1;32m\n\n\t[+] Access Granted\n\n[+] Wellcome to <<Noob-Hacker71>> World")
+            sleep(1)
+            print(usr)
+            break
+        else:
+            print("\033[1;91m \n\n\t[+] Access Denied")
+            os.system("xdg-open https://github.com/Noob-hacker71/Customer_Analyse")
+    else:
+        print('\033[1;91m\n\n\t[+] Wrong UserName\n\n[+] Try Again',usr,'sir')
+        os.system("xdg-open https://github.com/Noob-hacker71/Customer_Analyse")
+        
 
 logo='''\033[1;32m
 
